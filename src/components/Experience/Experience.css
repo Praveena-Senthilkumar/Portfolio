@@ -15,7 +15,9 @@
 
 .experience-card{
     width:700px;
-    background:rgb(106, 103, 103);
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(183, 99, 204, 0.08);
+    backdrop-filter: blur(10px);
     padding:30px;
     border-radius:15px;
     box-shadow:0 5px 20px rgba(0,0,0,.1);
@@ -24,10 +26,12 @@
 
 .experience-card:hover{
     transform:translateY(-8px);
+    box-shadow: 0 10px 25px rgba(37, 99, 235, 0.2);
+
 }
 
 .experience-card h3{
-    color:#2563eb;
+    color:#efe8e7;
 }
 
 .experience-card h4{
@@ -35,7 +39,7 @@
 }
 
 .experience-card span{
-    color:gray;
+    color:rgb(242, 235, 235);
     font-size:14px;
 }
 

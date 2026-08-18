@@ -7,7 +7,7 @@ const projects = [
     description:
       "AI-powered livestock health application for disease detection and nutrition recommendations.",
     technologies: ["Python", "TensorFlow", "Streamlit", "AI"],
-    github: "#",
+    github: "https://github.com/Praveena-Senthilkumar/FARM-PULSE.git",
   },
   {
     id: 2,
@@ -47,14 +47,8 @@ function Projects() {
         {projects.map((project) => (
           <div key={project.id} className="project-card">
 
-            {/* Project Image Placeholder */}
-            <div className="project-image">
-              <span>Project Screenshot</span>
-            </div>
-
             <div className="project-content">
 
-              {/* Only ONE title */}
               <h3>{project.title}</h3>
 
               <p>{project.description}</p>
