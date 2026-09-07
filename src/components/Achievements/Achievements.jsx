@@ -18,7 +18,11 @@ const achievements = [
     title: "DevOps Internship",
     description:
       "Worked on practical DevOps projects involving Git, Jenkins, Docker, Kubernetes and CI/CD practices.",
-  },
+  },{
+    id: 4,
+    title: "Hindi Language Certification",
+    description: "Hindi Language Certification - Dakshina Bharat Hindi Prachar Sabha (DBHPS).Completed 8 levels from Prathamic to Praveen Uttaradh, demonstrating proficiency in Hindi reading, writing, and communication."
+  }
 ];
 
 function Achievements() {

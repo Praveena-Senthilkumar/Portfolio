@@ -1,33 +1,34 @@
 import "./Hero.css";
+import resume from "../../assets/Praveena_resume.pdf";
+
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero">
 
       <div className="hero-text">
 
         <h3>Hello, I'm</h3>
 
         <h1>Praveena S</h1>
-
+        <br />
         <h2>Python Full Stack Developer</h2>
 
         <p>
           Passionate about building modern web applications,
-          AI-powered solutions, and DevOps automation.
+          AI-powered solutions, DevOps automation and Cloud computing.
         </p>
 
-        <button>Explore My Work</button>
+        <div className="hero-buttons">
 
-        <button>Download Resume</button>
+          <a href="#projects">
+            <button>Explore My Work</button>
+          </a>
 
-      </div>
+          <a href={resume} download="Praveena_S_Resume.pdf">
+            <button>Download Resume</button>
+          </a>
 
-      <div className="hero-image">
-
-        <img
-          src="https://via.placeholder.com/350"
-          alt="Profile"
-        />
+        </div>
 
       </div>
 

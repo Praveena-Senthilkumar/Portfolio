@@ -20,3 +20,19 @@ nav li {
 nav li:hover {
   color: #bfe5f6;
 }
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+    color: #7096e9;
+}
+
+nav a:hover::after {
+    width: 100%;
+}

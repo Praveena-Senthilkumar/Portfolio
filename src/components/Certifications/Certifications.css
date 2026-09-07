@@ -40,17 +40,17 @@
 
 .certificate-card h3 {
     font-size: 22px;
-    color: #b6b7be;
+    color: #f1f2f6;
     margin-bottom: 10px;
 }
 
 .certificate-card h4 {
-    color: #adafb5;
+    color: #c9cbd2;
     margin-bottom: 15px;
 }
 
 .certificate-card p {
-    color: #898a8e;
+    color: #9b9da3;
     line-height: 1.6;
     margin-bottom: 20px;
 }
@@ -58,7 +58,7 @@
 .certificate-card a {
     display: inline-block;
     padding: 10px 18px;
-    background: #2563eb;
+    background: #1541a0;
     color: white;
     text-decoration: none;
     border-radius: 6px;
@@ -66,5 +66,5 @@
 }
 
 .certificate-card a:hover {
-    background: #1d4ed8;
+    background: #09246f;
 }

@@ -2,7 +2,7 @@ import "./Skills.css";
 function Skills() {
 
     const skills = [
-        "Python",
+        "Python","Azure",
         "Java",
         "HTML",
         "CSS",
@@ -11,7 +11,7 @@ function Skills() {
         "Node.js",
         "Express.js",
         "MongoDB",
-        "SQL",
+        "MySQL",
         "Git",
         "GitHub",
         "Docker",
@@ -23,7 +23,7 @@ function Skills() {
 
     return (
 
-        <section className="skills">
+        <section id="skills" className="skills">
 
             <h2>My Skills</h2>
 

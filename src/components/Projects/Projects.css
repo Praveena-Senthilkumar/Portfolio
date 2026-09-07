@@ -16,7 +16,7 @@
 }
 
 .project-card {
-  width: 350px;
+  width: 600px;
   background-color: #161f33;
   border: 1px solid #223150;
   border-radius: 15px;
@@ -40,7 +40,7 @@
 }
 
 .project-content p {
-  color:rgb(240, 234, 234);
+  color:rgb(209, 202, 202);
   line-height: 1.6;
 }
 
@@ -52,8 +52,8 @@
 }
 
 .technologies span {
-  background: #e0f2fe;
-  color: #0369a1;
+  background: #042b61;
+  color: #feffff;
   padding: 6px 10px;
   border-radius: 5px;
   font-size: 13px;
@@ -69,11 +69,11 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background: #2563eb;
+  background: #3b5fad;
   color: white;
   text-decoration: none;
 }
 
 .project-buttons a:hover {
-  background: #1d4ed8;
+  background: #2e4072;
 }
